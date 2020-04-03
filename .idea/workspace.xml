@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f4a6abb-3b3d-4f71-831a-42416e19bb5a" name="Default Changelist" comment="Hello">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/post/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/post/templates/post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/templates/post/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/post/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/post/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="3f4a6abb-3b3d-4f71-831a-42416e19bb5a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585939975068</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Delete some rubbish">
+      <created>1585941310966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585941310977</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -87,25 +88,26 @@
     <MESSAGE value="Empty" />
     <MESSAGE value="First" />
     <MESSAGE value="Hello" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hello" />
+    <MESSAGE value="Delete some rubbish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete some rubbish" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585854930175">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
     <state x="484" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.870@0.0.1440.870" timestamp="1585854930175" />
-    <state x="374" y="29" key="CommitChangelistDialog2" timestamp="1585940038149">
+    <state x="374" y="29" key="CommitChangelistDialog2" timestamp="1585941303785">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
-    <state x="374" y="29" key="CommitChangelistDialog2/0.0.1440.870@0.0.1440.870" timestamp="1585940038149" />
+    <state x="374" y="29" key="CommitChangelistDialog2/0.0.1440.870@0.0.1440.870" timestamp="1585941303785" />
     <state x="221" y="77" key="SettingsEditor" timestamp="1585855986887">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
     <state x="221" y="77" key="SettingsEditor/0.0.1440.870@0.0.1440.870" timestamp="1585855986887" />
-    <state x="312" y="168" key="Vcs.Push.Dialog.v2" timestamp="1585856446430">
+    <state x="312" y="168" key="Vcs.Push.Dialog.v2" timestamp="1585941325814">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
-    <state x="312" y="168" key="Vcs.Push.Dialog.v2/0.0.1440.870@0.0.1440.870" timestamp="1585856446430" />
+    <state x="312" y="168" key="Vcs.Push.Dialog.v2/0.0.1440.870@0.0.1440.870" timestamp="1585941325814" />
     <state x="416" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1585911747946">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
