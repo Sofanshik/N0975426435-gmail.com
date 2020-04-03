@@ -1,0 +1,24 @@
+{% extends 'post/base_html.html' %}
+
+
+{% block title %}
+     Post List
+{% endblock %}
+
+{% block content %}
+    <h1 class="mb-3">Content: </h1>
+    {%for post_information in posts%}
+
+        <div class="card mb-3">
+            <h5 class="card-header">
+                {{post_information.Date_publish}}
+            </h5>
+            <div class="card-body">
+                <h5 class="card-title">{{post_information.title}}</h5>
+                <p class="card-text">{{post_information.text|truncatewords:15 }}</p>
+                <a href="{% url 'post_details_url' %}" class="btn btn-dark" style="color: white;">Read</a>
+            </div>
+        </div>
+
+    {% endfor %}
+{% endblock %}
