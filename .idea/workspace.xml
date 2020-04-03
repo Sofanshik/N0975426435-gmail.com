@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f4a6abb-3b3d-4f71-831a-42416e19bb5a" name="Default Changelist" comment="">
+    <list default="true" id="3f4a6abb-3b3d-4f71-831a-42416e19bb5a" name="Default Changelist" comment="Hello">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/post/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/post/templates/post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/templates/post/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/post/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/post/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
