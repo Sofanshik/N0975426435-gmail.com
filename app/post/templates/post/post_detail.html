@@ -1,15 +1,15 @@
 {% extends 'base.html' %}
 
 {% block title %}
-    {{ post.title }} - {{post.super}}
+    {{ post_information.title }}
 {% endblock %}
 
 {% block content %}
     <h1 class="mt-5">
-        {{ post.title }}
+        {{ post_information.title }}
     </h1>
     <p>
-        {{post.body}}
+        {{post_information.text}}
     </p>
 
 {% endblock %}

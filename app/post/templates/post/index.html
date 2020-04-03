@@ -7,6 +7,7 @@
 
 {% block content %}
     <h1 class="mb-3">Content: </h1>
+    <h3 style="color: red;" >{{post_information}}</h3>
     {%for post in posts%}
 
         <div class="card">
@@ -16,7 +17,7 @@
             <div class="card-body">
                 <h5 class="card-title">{{post.title}}</h5>
                 <p class="card-text">{{post.text}}</p>
-                <a href="#" class="btn btn-dark" style="color: white;">Read</a>
+                <a href="{% url 'posts_detail_url' post.id %}" class="btn btn-dark" style="color: white;">Read</a>
             </div>
         </div>
 

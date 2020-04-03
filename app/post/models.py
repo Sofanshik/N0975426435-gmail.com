@@ -7,3 +7,6 @@ class Post(models.Model):
 
     def __str__(self):
         return '{}'.format(self.title)
+
+class Topic(models.Model):
+    name = models.CharField(max_length=50, db_index=True)
