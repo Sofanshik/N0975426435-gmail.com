@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f4a6abb-3b3d-4f71-831a-42416e19bb5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/post/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/post/migrations/0006_topic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/post/migrations/0007_auto_20200404_1623.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/post/templates/post/post_create.html" afterDir="false" />
+    <list default="true" id="3f4a6abb-3b3d-4f71-831a-42416e19bb5a" name="Default Changelist" comment="Add site where you can create your new post">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/app/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/post/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/post/templates/post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/templates/post/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/post/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/post/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/post/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/post/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
     </list>
@@ -109,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585945251635</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Delete some rubbish">
+      <created>1586087663495</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586087663495</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add site where you can create your new post">
+      <created>1586087815296</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586087815296</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,29 +126,30 @@
     <MESSAGE value="First" />
     <MESSAGE value="Hello" />
     <MESSAGE value="Delete some rubbish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete some rubbish" />
+    <MESSAGE value="Add site where you can create your new post" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add site where you can create your new post" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585854930175">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
     <state x="484" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.870@0.0.1440.870" timestamp="1585854930175" />
-    <state x="374" y="29" key="CommitChangelistDialog2" timestamp="1586087714631">
+    <state x="374" y="29" key="CommitChangelistDialog2" timestamp="1586212899102">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
-    <state x="374" y="29" key="CommitChangelistDialog2/0.0.1440.870@0.0.1440.870" timestamp="1586087714631" />
+    <state x="374" y="29" key="CommitChangelistDialog2/0.0.1440.870@0.0.1440.870" timestamp="1586212899102" />
     <state x="221" y="77" key="SettingsEditor" timestamp="1585855986887">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
     <state x="221" y="77" key="SettingsEditor/0.0.1440.870@0.0.1440.870" timestamp="1585855986887" />
-    <state x="312" y="168" key="Vcs.Push.Dialog.v2" timestamp="1586087744922">
+    <state x="312" y="168" key="Vcs.Push.Dialog.v2" timestamp="1586087816420">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
-    <state x="312" y="168" key="Vcs.Push.Dialog.v2/0.0.1440.870@0.0.1440.870" timestamp="1586087744922" />
-    <state x="416" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1586081388933">
+    <state x="312" y="168" key="Vcs.Push.Dialog.v2/0.0.1440.870@0.0.1440.870" timestamp="1586087816420" />
+    <state x="416" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1586211464104">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
-    <state x="416" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.870@0.0.1440.870" timestamp="1586081388933" />
+    <state x="416" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.870@0.0.1440.870" timestamp="1586211464104" />
     <state x="383" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1585924181014">
       <screen x="0" y="0" width="1440" height="870" />
     </state>

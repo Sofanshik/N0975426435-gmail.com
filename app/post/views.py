@@ -22,7 +22,7 @@ def posts_create(request):
             post = form.save(commit=False)
             post.published_date = post.date_publish
             post.save()
-            return redirect('post_detail', post_id=post.post_id)
+            return redirect('posts_detail_url', post_id=post.id)
     else:
         form = PostForm()
     return render(request, 'post/post_create.html', {'post_create': posts_create})
