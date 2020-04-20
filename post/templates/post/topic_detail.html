@@ -1,0 +1,17 @@
+{% extends 'post/base_html.html' %}
+
+
+{% block title %}
+    {{ topic_information.name }}
+{% endblock %}
+
+
+{% block content %}
+
+    <h1 class="mb-3"> Post with "{{ topic_information.name }}" topic: </h1>
+
+    {% for post in topic_information.posts.all %}
+        {% include 'post/includes/post_cards_template.html' %}
+    {% endfor %}
+
+{% endblock %}

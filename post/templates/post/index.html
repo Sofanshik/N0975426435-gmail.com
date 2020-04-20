@@ -1,0 +1,29 @@
+{% extends 'post/base_html.html' %}
+
+
+{% block title %}
+     Post List
+{% endblock %}
+
+{% block content %}
+
+
+    <h1 class="mb-3">Content: </h1>
+    <h3 style="color: red;" >{{post_information}}</h3>
+
+
+    {%for post in posts%}
+
+        {% include 'post/includes/post_cards_template.html' %}
+
+    {% endfor %}
+
+        <!--<form action="{% url 'posts_create_url' %}" method="post">
+            {% csrf_token %}
+            <input value="" name="title" class="form-control" placeholder="title" aria-label="title" aria-describedby="basic-addon1">
+            <input value="" name="text" class="form-control is-valid" placeholder="text" aria-label="text" aria-describedby="basic-addon1">
+            <button type="submit" class="btn btn-dark">Create</button>
+        </form>-->
+
+
+{% endblock %}
