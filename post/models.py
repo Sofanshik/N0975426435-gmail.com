@@ -14,7 +14,7 @@ class Post(models.Model):
     title = models.CharField(max_length=150, db_index=True)
     text = models.TextField(blank=True, db_index=True)
     date_publish = models.DateTimeField(auto_now_add=True)
-    topic = models.ManyToManyField('Topic', blank=True, related_name='posts', null=True)
+    topic = models.ManyToManyField('Topic', blank=True, related_name='posts')
 
     def __str__(self):
         return '{}'.format(self.title)
