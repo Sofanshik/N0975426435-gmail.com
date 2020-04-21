@@ -7,11 +7,13 @@
 
 {% block content %}
 
+<!-- {{ topic.posts_count }} -->
+
     <h1 class="mb-3">Topics</h1>
     <h3 style="color: red;" >{{topic_information}}</h3>
             <ul>
         {% for topic in topics %}
-            <li><a href=".">{{ topic.name }}</a></li>
+            <li><a href="{% url 'topics_detail_url' topic.id %}">{{ topic.name }} - ({{ topic.count_post }})</a></li>
         {% endfor %}
             </ul>
 

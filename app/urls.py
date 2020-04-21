@@ -15,8 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from django.shortcuts import render
+
+
+def main_page(request):
+    text1 = "Hello, it's my first blog!"
+    text2 = "Come on, click on the posts and read them or create your's!"
+
+    return render(request, 'post/main_page.html', context={'text1': text1, 'text2': text2})
+
 
 urlpatterns = [
+    path('', main_page, name='main_page_url'),
     path('post/', include('post.urls')),
     path('admin/', admin.site.urls)
 ]
