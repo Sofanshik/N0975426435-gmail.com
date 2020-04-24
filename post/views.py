@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .forms import PostForm
 from .models import *
 from django.utils import timezone
@@ -48,3 +48,4 @@ def posts_create(request):
     else:
         form = PostForm()
     return render(request, 'post/post_create.html', {'post_create': posts_create})
+# разобраться в чём проблемма и доработать!!!!

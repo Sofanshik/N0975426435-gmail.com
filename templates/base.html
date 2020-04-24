@@ -11,6 +11,12 @@
         {% endblock %}
 
     </title>
+
+    <!--<style>
+        .user_get_username{
+            color
+    </style>-->
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -38,6 +44,21 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
+
+            <ul>
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <h6 class="nav" style="color: white;">User:<span style="color: #14D5F1;">{{ user.get_username }}</span></h6>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'logout'%}?next={{request.path}}" tabindex="-1" aria-disabled="true" style="color: white;">Logout</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'login'%}?next={{request.path}}" tabindex="-1" aria-disabled="true" style="color: white;">Login</a>
+                    </li>
+                {% endif %}
+            </ul>
 
         </div>
     </nav>

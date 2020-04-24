@@ -28,5 +28,6 @@ def main_page(request):
 urlpatterns = [
     path('', main_page, name='main_page_url'),
     path('post/', include('post.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
     path('admin/', admin.site.urls)
 ]
